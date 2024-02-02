@@ -1,0 +1,93 @@
+@import url('./reset.css');
+
+body{
+    display: flex;
+    justify-content: space-between;
+
+    background-image: url("../images/matrix.jpg");
+}
+
+main{
+    width: 85vw;
+    height: 90vh;
+
+    display: flex;
+}
+
+textarea{
+    resize: none;
+    border: none;
+}
+
+button{
+    width: 13rem;
+    height: 2.3rem;
+
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.logo{
+    width: 6rem;
+    padding-left: 1.5vw;
+    padding-top: 1.5vw;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.interface-decodificador-inserir{
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 5vh;
+
+    color: #00ff22;
+}
+.interface-decodificador-inserir p{
+    padding-top: 2rem;
+}
+.interface-decodificador-inserir span{
+    color: #e60e0e;
+}
+
+#texto-ascodificado{
+    height: 65vh;
+
+    background-color: #000;
+    color: #00ff22;
+}
+::placeholder{
+    color: #00ff22;
+}
+
+.interface-decodificador-inserir-botoes{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.interface-decodificador-imprimir{
+    width: 35vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5vh;
+    padding-left: 3vw;
+    gap: 20px;
+}
+
+#texto-codificado{
+    width: 100%;
+    height: 65vh;
+
+    background-color: #000;
+    color: #1cc8db;
+}
+
