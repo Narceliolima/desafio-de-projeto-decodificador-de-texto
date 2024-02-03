@@ -2,7 +2,8 @@
 
 body{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 
     background-image: url("../images/matrix.jpg");
 }
@@ -28,9 +29,21 @@ button{
     background-color: green;
 }
 
+footer{
+    width: 100vw;
+    height: 7vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+
+    background-color: #18a01375;
+    color: #000000;
+}
+
 .logo{
     width: 6rem;
-    padding-left: 1.5vw;
     padding-top: 1.5vw;
 }
 .logo img{
@@ -43,13 +56,13 @@ button{
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 5vh;
 
     color: #00ff22;
 }
 .interface-decodificador-inserir p{
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 .interface-decodificador-inserir span{
     color: #e60e0e;
@@ -76,11 +89,19 @@ button{
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
     padding-top: 5vh;
     padding-left: 3vw;
-    gap: 20px;
+    gap: 3.3rem;
+}
+.interface-decodificador-imprimir button{
+    align-self: center;
+}
+
+.interface-decodificador-imprimir-area-de-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #texto-codificado{
@@ -91,3 +112,29 @@ button{
     color: #1cc8db;
 }
 
+.interface-decodificador-imprimir-sem-mensagens{
+    position: absolute;
+    margin-top: 10vh;
+    width: 35vw;
+
+    display: flex;
+    /* display: none; */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    color: #1cc8db;
+}
+.interface-decodificador-imprimir-sem-mensagens img{
+    width: 50%;
+}
+.interface-decodificador-imprimir-sem-mensagens p:nth-child(2){
+    width: 80%;
+    margin-top: 0.5rem;
+    font-size: 20px;
+    font-weight: 800;
+}
+.interface-decodificador-imprimir-sem-mensagens p:last-child{
+    margin-top: 0.75rem;
+    width: 80%;
+}
