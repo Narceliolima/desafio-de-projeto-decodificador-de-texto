@@ -5,7 +5,7 @@ Criptografia é a prática de proteger informações por meio do uso de algoritm
 
 Acesse [aqui](https://narceliolima.github.io/desafio-de-projeto-decodificador-de-texto/) a página online no Github Pages. c:
 
-![image]()
+![image](https://raw.githubusercontent.com/Narceliolima/desafio-de-projeto-decodificador-de-texto/main/decodificadoruse.gif)
 
 ## 🖇Referência
 
