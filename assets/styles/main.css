@@ -73,6 +73,8 @@ footer{
 
     background-color: #000;
     color: #00ff22;
+
+    font-size: 32px;
 }
 ::placeholder{
     color: #00ff22;
@@ -110,6 +112,8 @@ footer{
 
     background-color: #000;
     color: #1cc8db;
+
+    font-size: 24px;
 }
 
 .interface-decodificador-imprimir-sem-mensagens{
@@ -118,7 +122,6 @@ footer{
     width: 35vw;
 
     display: flex;
-    /* display: none; */
     flex-direction: column;
     align-items: center;
     text-align: center;
