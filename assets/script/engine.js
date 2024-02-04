@@ -1,3 +1,8 @@
+/**
+ * Pessoal tenho que adquirir o costume de comentar código. u.u
+ * Pretendo comentar mas por enquanto vou ficar devendo...
+ */
+
 const listaCaracteresCodificados = {a:"ai", e:"enter" , i:"imes" ,o:"ober" ,u:"ufat"}
 const listaBotoes = document.querySelectorAll("button");
 
@@ -26,7 +31,10 @@ function descriptografaTexto(texto){
 }
 
 function copiaTexto(){
-    console.log("Copia o texto");
+    const areaTextoSaida = document.querySelector("#saida-texto");
+    const texto = areaTextoSaida.value;
+
+    navigator.clipboard.writeText(texto);
 }
 
 function acionaCriDecri(acao){
