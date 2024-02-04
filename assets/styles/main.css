@@ -141,3 +141,32 @@ footer{
     margin-top: 0.75rem;
     width: 80%;
 }
+
+@media (max-width: 800px){
+
+    body{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+        height: auto;
+    }
+    .interface-decodificador-inserir{
+        width: 100vw;
+    }
+    .interface-decodificador-imprimir{
+        width: 94vw;
+    }
+    #saida-texto{
+        height: 30vh;
+    }
+    .interface-decodificador-imprimir-sem-mensagens{
+        margin-top: 4vh;
+    }
+}
+
+@media (max-width: 400px){
+    .interface-decodificador-imprimir-sem-mensagens{
+        margin-top: 2vh;
+    }
+}
